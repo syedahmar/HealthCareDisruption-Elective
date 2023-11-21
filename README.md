@@ -16,4 +16,6 @@ This repository contains the raw data, the processed data and the MATLAB script 
 
 **RTT_October2022.mat:** (MATLAB Data File) This is the data imported from the raw data (CSV) that is now in the MATLAB format.
 
+**RTT_October2022.csv:** (CSV file) This is the processed data (the same as the data stored in "RTT_October2022.mat") provided in the CSV format to facilitate other researchers to be able to use this in a different language (e.g. R, Python) in case they do not have access to MATLAB.
+
 **RTT-Overview-Timeseries-October22.xlsx:** This is the original data file that was downloaded from NHS England (https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/). This data is made publicly available under the Open Government Licence v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
