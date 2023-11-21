@@ -14,7 +14,7 @@ This repository contains the raw data, the processed data and the MATLAB script 
 
 **get_y_missing.m** This function generates the y_missing time-series and it is called by the HealthcareDisruption_final.m script.
 
-**RTT_October2022.mat:** (MATLAB Data File) This is the data imported from the raw data (CSV) that is now in the MATLAB format.
+**RTT_October2022.mat:** (MATLAB Data File) This is the data imported from the raw data (CSV) that is now in the MATLAB format. The dimensions of this dataset are 187 x 37 (187 rows; 37 columns).
 
 **RTT_October2022.csv:** (CSV file) This is the processed data (the same as the data stored in "RTT_October2022.mat") provided in the CSV format to facilitate other researchers to be able to use this in a different language (e.g. R, Python) in case they do not have access to MATLAB.
 
