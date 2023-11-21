@@ -3,7 +3,8 @@
 This repository contains the raw data, the processed data and the MATLAB script files that accompany a research publication that is currently under review. The link to the published paper will be provided here once it is published.
 
 **Files Description**
-**HealthCareDisruption_final.m:** (MATLAB Script File) This script will run the entire analysis pipeline (but it will not plot the projections).
+-
+**HealthCareDisruption_final.m:** (MATLAB Script File) This script will run the entire analysis pipeline (but it will not plot the projections). Line 142 can be used to change the 'percent_return' value (default is 0.5). This variable can be used to set the percentage of missing persons that are anticipated to return over the projection period. In the manuscript, we have used values of 0.25 (25%), 0.5 (50%) and 0.75 (75%). 
 
 **plot_projections.m** Run this immediately after "HealthCareDisruption_final.m" to plot the projections. By default, it will select the previously created figure from "HealthcareDisruption_final.m" and then add the projections there. However, you can specify the figure that you wish to add the projections to.
 
